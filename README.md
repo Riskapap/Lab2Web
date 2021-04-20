@@ -131,4 +131,20 @@ background: #E42A42;
 }
 ```
 ![7](https://user-images.githubusercontent.com/56241285/114570912-6c439180-9ca0-11eb-8a65-66cd3f426132.png)
-# Tugas
+# TUGAS
+1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+- Saya bereksperimen menambahkan background dan mengubah warna pada button
+![8](https://user-images.githubusercontent.com/56241285/115391636-e2e50f80-a209-11eb-9656-cad0afac82d4.png)
+![9](https://user-images.githubusercontent.com/56241285/115391682-ec6e7780-a209-11eb-94da-355e43c9c186.png)
+2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+```
+Pendeklarasian CSS elemen h1 mengubah tampilan seluruh elemen yang memiliki tag h1, jika #intro h1 hanya mengubah tampilan elemen h1 yang memiliki id #intro.
+```
+3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+- jika mendeklarasikan CSS pada elemen yang sama namun isi deklarasi nya berbeda, maka semua deklarasi CSS tersebut akan ditampilkan.
+![10](https://user-images.githubusercontent.com/56241285/115393213-a3b7be00-a20b-11eb-9c43-83812ef3397d.png)
+![11](https://user-images.githubusercontent.com/56241285/115393233-a9150880-a20b-11eb-84dd-5d2c40555ff3.png)
+4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+- Kedua deklarasi tersebut akan tampil
+![12](https://user-images.githubusercontent.com/56241285/115394136-a9fa6a00-a20c-11eb-9746-23ecb31c3b03.png)
+![13](https://user-images.githubusercontent.com/56241285/115394153-af57b480-a20c-11eb-91b7-a0942aee3c57.png)
